@@ -1,0 +1,12 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb-{{ env }}.jyothiy.online
+REDIS_HOST: redis-{{ env }}.jyothiy.online
+MYSQL_HOST: mysql-{{ env }}.jyothiy.online
+RABBITMQ_HOST: rabbitmq-{{ env }}.jyothiy.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.jyothiy.online
+USER_HOST: user.backend-alb-{{ env }}.jyothiy.online
+CART_HOST: cart.backend-alb-{{ env }}.jyothiy.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.jyothiy.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.jyothiy.online
+app_version: v3
